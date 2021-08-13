@@ -41,10 +41,10 @@ const Tour = ({ id, image, info, name, price, removeTour }) => {
             </button>
           )}
         </p>
-        <button className={styles.button} onClick={handleRemove}>
-          Not interested
-        </button>
       </div>
+      <button className={styles.button} onClick={handleRemove}>
+        Not interested
+      </button>
     </div>
   );
 };
